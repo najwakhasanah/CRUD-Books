@@ -8,11 +8,11 @@ Smart Contract berbasis Rust yang dideploy di jaringan **Stellar Soroban**. Kont
 ---
 
 ## 🖼️ Tampilan Hasil Run
-*(Pastikan file gambar sudah kamu upload ke folder project dengan nama 'screenshot.png')*
+
 
 <p align="center">
   <img src="screenshot1.png" alt="Preview Terminal Soroban" width="700" style="border-radius: 10px; border: 1px solid #ddd;">
-  <img src="screenshot2.png" alt="Preview Terminal Soroban" width="700" style="border-radius: 10px; border: 1px solid #ddd;">
+  <img src="Screenshot2.png" alt="Preview Terminal Soroban" width="700" style="border-radius: 10px; border: 1px solid #ddd;">
 </p>
 
 ---
