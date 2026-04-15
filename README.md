@@ -12,10 +12,9 @@ Smart Contract berbasis Rust yang dideploy di jaringan **Stellar Soroban**. Kont
 
 <p align="center">
   <img src="screenshot1.png" alt="Preview Terminal Soroban" width="700" style="border-radius: 10px; border: 1px solid #ddd;">
-</p>
-<p align="center">
   <img src="screenshot2.png" alt="Preview Terminal Soroban" width="700" style="border-radius: 10px; border: 1px solid #ddd;">
 </p>
+
 ---
 
 ## 📝 Identitas Kontrak
@@ -34,7 +33,7 @@ Kontrak ini menggunakan fitur `env.storage().instance()` untuk penyimpanan data 
 | Fungsi | Deskripsi | Parameter |
 | :--- | :--- | :--- |
 | `create_book` | Menambah buku baru | `title`, `category`, `isbn` |
-| `get_books` | Mengambil semua buku | - |
+| `get_books` | Mengambil semua buku | `id`  |
 | `get_book_by_id` | Cari buku secara spesifik | `id` |
 | `update_book` | Edit info buku | `id`, `new_title`, `new_category`, `new_isbn` |
 | `delete_book` | Hapus buku dari storage | `id` |
